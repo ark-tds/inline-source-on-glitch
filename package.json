@@ -1,0 +1,9 @@
+{
+  "name": "inline-source",
+  "dependencies": {
+    "inline-source": "6.1.8"
+  },
+  "start": {
+    "node index.js"
+  }
+}
