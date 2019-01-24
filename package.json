@@ -3,7 +3,7 @@
   "dependencies": {
     "inline-source": "6.1.8"
   },
-  "script": {
+  "scripts": {
     "start": "node index.js"
   }
 }
