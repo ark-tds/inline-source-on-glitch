@@ -3,7 +3,7 @@ const fs = require('fs');
 
 inlineSource('src/html/index.html')
 .then(html => {
-  fs.writeFileSync('dist/html/index.html', html);
+  console.log(html);
 }).catch(err => {
-  console.log('failed');
+  console.log(err);
 });
